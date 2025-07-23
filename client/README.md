@@ -10,7 +10,7 @@ This folder contains the React frontend application that should be deployed to V
 
 Make sure to set these environment variables in your Vercel deployment:
 
-- `REACT_APP_API_URL` - URL of your backend API (e.g., `https://your-backend.onrender.com`)
+- `REACT_APP_API_URL` - URL of your backend API: `https://my-backend-project-26pq.onrender.com/api`
 
 ### Build Command
 
