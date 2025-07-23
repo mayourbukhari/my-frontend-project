@@ -2,7 +2,6 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 
 // Create axios instance with default config
-// In development, use proxy (/api) or fallback to deployed backend URL
 const API_BASE_URL = process.env.REACT_APP_API_URL || 
   (process.env.NODE_ENV === 'development' ? '/api' : 'https://my-backend-project-26pq.onrender.com/api');
 
